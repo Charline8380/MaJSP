@@ -1,0 +1,172 @@
+/** <a target ="_blank" href ="https: //icones8.fr /icons/set/edit">Modifier icon </a>icône par <a target ="_blank" href ="https: //icones8.fr ">Icons8</a> **/
+/** <a target="_blank" href="https://icones8.fr/icons/set/view-file">Voir le fichier icon</a> icône par <a target="_blank" href="https://icones8.fr">Icons8</a> **/
+
+body {
+	font: Helvetica;
+	background-color: white;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 30px;
+	font-family: Comic Sans MS;
+}
+
+h2 {
+	font-family: AR BLANCA;
+	font-size: 20px;
+	text-align: center;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+h3 {
+	text-align: center;
+	font-size: 15px;
+}
+
+h4 {
+	font-family: Papyrus;
+	font-size: 18px;
+}
+
+.h4 {
+	text-align: center;
+}
+
+.connexion {
+	justify-content: space-between;
+	align-content: space-between;
+	text-align: center;
+}
+
+.container {
+	justify-content: space-between;
+	align-content: space-between;
+	display: grid;
+	grid-template-columns: 200px 950px 200px;
+	padding: 10px;
+}
+
+.container2 {
+	width: 100%;
+	height: 3em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 600px;
+	padding-right: 600px;
+	justify-content: space-between;
+	align-content: space-between;
+	text-align: center;
+}
+
+.menu {
+	justify-content: space-between;
+	align-content: space-between;
+	display: grid;
+	grid-template-columns: 200px 200px 200px 200px;
+	padding-left: 200px;
+	padding-Right: 200px;
+}
+
+.ajoutProduit {
+	width: 100%;
+	justify-content: space-between;
+	align-content: space-between;
+	text-align: center;
+	justify-content: space-between;
+}
+
+.produit {
+	padding: 10px;
+}
+
+.box1 {
+	height: auto;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+	max-width: 1500px;
+	margin: 0 auto;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0
+		rgba(0, 0, 0, 0.24);
+}
+
+.col {
+	width: 100%;
+	text-align: center;
+}
+
+.item {
+	width: 300px;
+	padding: 50px;
+	text-align: center;
+	display: inline-block;
+}
+
+.form {
+	position: relative;
+	z-index: 1;
+	max-width: 600px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0
+		rgba(0, 0, 0, 0.24);
+}
+
+.detail {
+	position: relative;
+	z-index: 1;
+	max-width: 900px;
+	margin: 0 auto 100px;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0
+		rgba(0, 0, 0, 0.24);
+}
+
+.form input, select, textarea, option {
+	font-family: "Roboto", sans-serif;
+	outline: 0;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+.form button {
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: #4CAF50;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+}
+
+.form button:hover, .form button:active, .form button:focus {
+	background: #43A047;
+}
+
+header {
+	
+}
+
+footer {
+	
+}
