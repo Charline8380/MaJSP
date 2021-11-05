@@ -1,0 +1,12 @@
+Mini Projet E-commerce réalisé dans le cadre de l'évaluation des compétences :
+
+  --> JEE-Servlet-Jsp (Front);
+  --> Api Jdbc pour connection BDD ; 
+  --> PostgreSql :	bdd 	  = 'majsp';
+					user	  = 'user' ;
+					password  =	'user' ;
+					port	  = 'localhost:5432' ;
+					
+
+NB : Creer le role 'user' avec le mot de passe 'user' ;
+	 Créer le bdd 'majsp' et l'attribuer au role 'user';

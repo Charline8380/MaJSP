@@ -35,15 +35,15 @@ public class ConnexionFactory {
                 System.out.println("Pilote chargé");
 
                 Properties props = new Properties();
-                props.setProperty("user", "abuwe");
-                props.setProperty("password", "8380");
+                props.setProperty("user", "user");
+                props.setProperty("password", "user");
                 ConnexionFactory.connection = DriverManager.getConnection(url, props);
                 return connection;
             } catch (ClassNotFoundException e) {
                 System.out.println("Impossible de se charger le driver");
                 System.exit(-1);
             } catch (SQLException e) {
-                System.out.println("Impossible de se connecter à l’url : " + url);
+                System.out.println("Impossible de se connecter � l'url : " + url);
                 System.exit(-1);
             }
 
